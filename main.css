@@ -38,6 +38,17 @@ input {
 	padding: 7px 10px 7px 10px;
 	font-size: large;
 	border: 1px solid #e3e3e3;
+	background-image: url("Images/mic.png");
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-position: 90% 50%;
+}
+
+#mag-glass {
+	width: 25px;
+	position: relative;
+	right: 45px;
+	bottom: 13px;
 }
 
 input:hover {
@@ -48,9 +59,11 @@ input:hover {
 	display: inline-block;
 	float: right;
 	height: 25px;
+	margin-right: 30px;
 }
 .rightIcons img {
 	margin-right: 15px;
+	vertical-align: middle;
 }
 
 #googleApps {
@@ -63,6 +76,17 @@ input:hover {
 
 #jIcon {
 	width: 33px;
+}
+
+#sign-in {
+	padding: 4px 13px 4px 13px;
+	background: #4683eb;
+	color: white;
+	height: 30px;
+	border: none;
+	border-radius: 4px;
+	font-weight: bold;
+	vertical-align: middle;
 }
 
 .toggleResults {
@@ -104,6 +128,9 @@ td a:hover {
 	width: 632px;
 	box-shadow: 0 2px 1px #e3e3e3;
 	padding-bottom: 16px;
+	background-image: url("Images/results-thumb.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
 }
 #top-results-one {
 	text-transform: uppercase;
@@ -224,5 +251,26 @@ a:hover {
 #rightBottom {
 	position: absolute;
 	right: 15px;
-	bottom: 8px;
+	bottom: -1280px;
+}
+
+.bottomGoogle {
+	padding-left: 180px;
+	padding-top: 20px;
+	margin-bottom: 35px;
+	color: blue;
+}
+
+#bottomGooogle {
+	width: 260px;
+}
+
+#chevron {
+	color: blue;
+}
+
+#numbers {
+	color: blue;
+	letter-spacing: 3px;
+	padding-left: 25px;
 }
