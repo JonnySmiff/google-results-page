@@ -1,0 +1,228 @@
+/* {
+	border: 1px solid blue;
+}
+*/
+body {
+	padding: 0;
+	margin: 0;
+	font-family: arial, sans-serif;
+	font-size: small;
+}
+/* This CSS is for the top banner */
+.topBanner {
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 12px;
+	background-color: #fafafa;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+#small-logo {
+	width: 120px;
+	display: inline-block;
+}
+
+.searchBox {
+	display: inline-block;
+	position: relative;
+	margin-left: 15px;
+	top: -20px;
+	height: 44px;
+	width: 632px;
+}
+
+input {
+	width: 610px;
+	margin: auto;
+	height: 25px;
+	padding: 7px 10px 7px 10px;
+	font-size: large;
+	border: 1px solid #e3e3e3;
+}
+
+input:hover {
+	box-shadow: 0 1px 1px #e3e3e3;
+}
+
+.rightIcons {
+	display: inline-block;
+	float: right;
+	height: 25px;
+}
+.rightIcons img {
+	margin-right: 15px;
+}
+
+#googleApps {
+	width: 25px;
+}
+
+#googleNotification {
+	width: 25px;
+}
+
+#jIcon {
+	width: 33px;
+}
+
+.toggleResults {
+	margin-left: 140px;
+}
+
+td {
+	width: 55px;
+	text-align: center;
+	border: 0;
+	color: #545454;
+}
+
+td a {
+	color: #545454;
+
+}
+
+td a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+/* Main site body CSS from here */
+
+.resultsBody {
+	padding-left: 150px;
+	margin-right: 566px;
+}
+
+#results-number {
+	color: #545454;
+	padding-left: 24px;
+}
+
+.topResultBox {
+	border: 1px solid #e3e3e3;
+	font-size: larger;
+	width: 632px;
+	box-shadow: 0 2px 1px #e3e3e3;
+	padding-bottom: 16px;
+}
+#top-results-one {
+	text-transform: uppercase;
+	font-weight: bolder;
+	line-height: 20px;
+	padding-left: 24px;
+}
+
+li {
+	line-height: 23px;
+}
+
+.sitename-address {
+	padding-left: 24px;
+}
+
+.sitename-address h3, h4{ 
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+.sitename-address h3 {
+	font-size: 18px;
+}
+
+.sitename-address h4 {
+	font-size: 14px;
+	color: #006621;
+}
+.sitename-address p {
+	margin-top: 4px;
+	line-height: 18px;
+	color: #545454;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.sub-results-box {
+	width: 632px;
+	padding-top: 4px;
+	text-align: right;
+	color: #757575;
+	font-size: small;
+}
+
+.sub-results-box p {
+	display: inline;
+	margin-right: 8px;
+}
+
+.sub-results-box img {
+	width: 12px;
+	margin-right: 6px;
+}
+
+.result-synopsis {
+	margin-top: 24px;
+
+}
+
+.relatedSearches {
+	padding-left: 24px;
+	padding-top: 20px;
+	line-height: 20px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.relatedSearchesTitle {
+	font-size: 18px;
+	color: #222;
+	font-weight: normal;
+}
+
+.bottomIndo p {
+	background-color: #f2f2f2;
+	line-height: 24px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+	border-top: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+	color: #757575;
+	font-size: larger;
+}
+
+
+.bottomBanners {
+	background-color: #f2f2f2;
+	padding-left: 30px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.bottomBanners div p {
+	display: inline-block;
+}
+
+#leftBottom p {
+	margin-right: 15px;
+	color: #757575;
+}
+
+#rightBottom p {
+	margin-left: 15px;
+	color: #757575;
+}
+
+#rightBottom {
+	position: absolute;
+	right: 15px;
+	bottom: 8px;
+}
